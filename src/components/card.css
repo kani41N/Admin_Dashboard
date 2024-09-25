@@ -1,0 +1,30 @@
+.dashboard .info-card {
+ padding-bottom: 10px;
+}
+
+.dashboard .info-card h6{
+    font-size: 20px;
+    color: chocolate;
+    font-weight: 600;
+    padding: 18px 20px;
+}
+
+.dashboard .card-icon{
+    font-size: 32px;
+    line-height: 0;
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.dashboard .salse-card .card-icon{
+    color: blue;
+    background: wheat;
+}
+
+.dashboard .revenue-card .card-icon{
+    color: lightgreen;
+    background: white;
+}
+

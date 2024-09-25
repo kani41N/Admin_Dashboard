@@ -1,0 +1,197 @@
+/* General styling for the notifications dropdown */
+.nav-icon {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  /* Badge for notification count */
+  .badge-number {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    font-size: 12px;
+    padding: 4px 6px;
+    border-radius: 50%;
+  }
+  
+  /* Dropdown notifications */
+  .notifications {
+    width: 300px;
+    max-height: 400px;
+    overflow-y: auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    overflow: hidden;
+  }
+  
+  /* Make sure no content overflows */
+  .notifications .dropdown-header,
+  .notification-item h4,
+  .notification-item p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .notifications .dropdown-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .notifications .dropdown-header a {
+    font-size: 12px;
+    color: #007bff;
+  }
+  
+  .notifications .dropdown-divider {
+    margin: 0;
+  }
+  
+  .notification-item {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 10px 15px;
+    font-size: 14px;
+    
+  }
+  
+  /* Ensure content inside .notification-item doesn't overflow */
+  .notification-item div {
+    max-width: 200px;
+  }
+  
+  .notification-item h4 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .notification-item p {
+    margin: 0;
+    font-size: 12px;
+    color: #6c757d;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .notification-item .text-primary {
+    color: #007bff !important;
+  }
+  
+  .notification-item .text-danger {
+    color: #dc3545 !important;
+  }
+  
+  .dropdown-footer {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .dropdown-footer a {
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .dropdown-footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Header nav styles */
+  .header-nav ul {
+    list-style: none;
+  }
+  
+  .header-nav > ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+ /* NavAvatar.css */
+.nav-item {
+  position: relative;
+}
+
+.nav-profile {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+
+.nav-profile img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.nav-profile span {
+  padding-left: 10px;
+  color: #333;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.dropdown-menu {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  min-width: 220px;
+  padding: 0.5rem;
+}
+
+.dropdown-header h6 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 0;
+  color: #555;
+}
+
+.dropdown-header span {
+  font-size: 14px;
+  color: #888;
+}
+
+.dropdown-divider {
+  margin: 0.5rem 0;
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  font-size: 14px;
+  color: #555;
+  text-decoration: none;
+}
+
+.dropdown-item:hover {
+  background-color: #f7f7f7;
+  border-radius: 4px;
+}
+
+.dropdown-item svg {
+  margin-right: 10px;
+  color: #666;
+}
+
+.dropdown-item span {
+  font-size: 14px;
+}
+
+.dropdown-menu-end {
+  right: 0;
+  left: auto;
+}

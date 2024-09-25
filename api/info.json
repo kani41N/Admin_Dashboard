@@ -1,0 +1,229 @@
+
+
+{
+    "cards": [
+      {
+        "_id": 1,
+        "name": "Sales",
+        "icon": "FaChartLine",
+        "amount": 300,
+        "percentage": 0.22,
+        "active": true
+      },
+      {
+        "_id": 2,
+        "name": "Revenue",
+        "icon": "FaDollarSign",
+        "amount": 500,
+        "percentage": 0.18,
+        "active": true
+      },
+      {
+        "_id": 3,
+        "name": "Customer",
+        "icon": "FaUsers",
+        "amount": 150,
+        "percentage": 0.12,
+        "active": false
+      }
+    ],
+    "news": [
+    {
+      "_id": 1,
+      "title": "Global Market Trends",
+      "content": "The global market is seeing unprecedented growth as economies recover from recent downturns. Analysts predict a continued upward trend through the next quarter, driven by strong performance in the tech and energy sectors.",
+      "date": "2024-09-12",
+      "author": "John Doe",
+      "category": "Economy",
+      "image": "./market.jpg",
+      "active": true
+    },
+    {
+      "_id": 2,
+      "title": "Tech Innovations in 2024",
+      "content": "This year, several tech companies have introduced groundbreaking innovations, including advances in AI, blockchain, and quantum computing. These developments are expected to reshape industries and create new business models.",
+      "date": "2024-09-10",
+      "author": "Jane Smith",
+      "category": "Technology",
+      "image": "./tech.jpg",
+      "active": true
+    },
+    {
+      "_id": 3,
+      "title": "Environmental Policies Around the World",
+      "content": "Many countries are adopting more stringent environmental policies to combat climate change. The latest international summit outlined new goals for reducing carbon emissions and increasing renewable energy usage.",
+      "date": "2024-09-08",
+      "author": "Alice Green",
+      "category": "Environment",
+      "image": "./environment.jpg",
+      "active": false
+    },
+    {
+      "_id": 4,
+      "title": "Sports Season Update",
+      "content": "The latest sports season has been full of surprises, with underdog teams performing exceptionally well. Fans are eagerly awaiting the finals, which promise to be some of the most competitive games in recent history.",
+      "date": "2024-09-07",
+      "author": "Michael Lee",
+      "category": "Sports",
+      "image": "./sports.jpg",
+      "active": true
+    },
+    {
+      "_id": 5,
+      "title": "Healthcare Advances",
+      "content": "Significant advancements in healthcare technology are improving patient outcomes. New medical devices and treatments, including gene therapy and AI-assisted diagnostics, are expected to revolutionize the healthcare industry.",
+      "date": "2024-09-05",
+      "author": "Emma White",
+      "category": "Health",
+      "image": "./healthcare.jpg",
+      "active": true
+    }
+  ],
+  "topSelling": [
+    {
+      "_id": 1,
+      "name": "Wireless Earbuds",
+      "category": "Electronics",
+      "price": 49.99,
+      "unitsSold": 1200,
+      "image": "wireless_earbuds.jpg",
+      "rating": 4.7,
+      "inStock": true
+    },
+    {
+      "_id": 2,
+      "name": "Fitness Tracker",
+      "category": "Wearables",
+      "price": 99.99,
+      "unitsSold": 850,
+      "image": "fitness_tracker.jpg",
+      "rating": 4.5,
+      "inStock": true
+    },
+    {
+      "_id": 3,
+      "name": "Smartphone",
+      "category": "Mobile",
+      "price": 699.99,
+      "unitsSold": 1500,
+      "image": "smartphone.jpg",
+      "rating": 4.8,
+      "inStock": false
+    },
+    {
+      "_id": 4,
+      "name": "Gaming Laptop",
+      "category": "Computers",
+      "price": 1299.99,
+      "unitsSold": 400,
+      "image": "gaming_laptop.jpg",
+      "rating": 4.6,
+      "inStock": true
+    },
+    {
+      "_id": 5,
+      "name": "4K Television",
+      "category": "Home Entertainment",
+      "price": 899.99,
+      "unitsSold": 300,
+      "image": "4k_television.jpg",
+      "rating": 4.9,
+      "inStock": true
+    }
+  ],
+  "recentSales": [
+    {
+      "_id": 1,
+      "productName": "Wireless Earbuds",
+      "category": "Electronics",
+      "price": 49.99,
+      "quantity": 2,
+      "totalSale": 99.98,
+      "customerName": "John Doe",
+      "date": "2024-09-12",
+      "status": "Completed"
+    },
+    {
+      "_id": 2,
+      "productName": "Fitness Tracker",
+      "category": "Wearables",
+      "price": 99.99,
+      "quantity": 1,
+      "totalSale": 99.99,
+      "customerName": "Jane Smith",
+      "date": "2024-09-11",
+      "status": "Pending"
+    },
+    {
+      "_id": 3,
+      "productName": "Smartphone",
+      "category": "Mobile",
+      "price": 699.99,
+      "quantity": 1,
+      "totalSale": 699.99,
+      "customerName": "Alice Green",
+      "date": "2024-09-10",
+      "status": "Completed"
+    },
+    {
+      "_id": 4,
+      "productName": "Gaming Laptop",
+      "category": "Computers",
+      "price": 1299.99,
+      "quantity": 1,
+      "totalSale": 1299.99,
+      "customerName": "Michael Lee",
+      "date": "2024-09-09",
+      "status": "Shipped"
+    },
+    {
+      "_id": 5,
+      "productName": "4K Television",
+      "category": "Home Entertainment",
+      "price": 899.99,
+      "quantity": 1,
+      "totalSale": 899.99,
+      "customerName": "Emma White",
+      "date": "2024-09-08",
+      "status": "Completed"
+    }
+  ],
+  "recentActivity": [
+    {
+      "id": 1,
+      "time": "10 mins",
+      "color": "text-primary",
+      "content": "John Doe logged in as Admin",
+      "highlight": true
+    },
+    {
+      "id": 2,
+      "time": "30 mins",
+      "color": "text-success",
+      "content": "Jane Smith uploaded a file: design_mockup.png",
+      "highlight": false
+    },
+    {
+      "id": 3,
+      "time": "2 hrs",
+      "color": "text-warning",
+      "content": "Michael Lee logged out",
+      "highlight": true
+    },
+    {
+      "id": 4,
+      "time": "2 days",
+      "color": "text-info",
+      "content": "Alice Green purchased a Gaming Laptop",
+      "highlight": true
+    },
+    {
+      "id": 5,
+      "time": "2 weeks",
+      "color": "text-muted",
+      "content": "Emma White's account deletion is pending",
+      "highlight": false
+    }
+  ]
+  }
+  

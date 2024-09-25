@@ -1,0 +1,141 @@
+/* Sidebar Styles */
+.sidebar {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    z-index: 996;
+    transition: all 0.3s ease;
+    padding: 20px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #aab7cf transparent;
+    box-shadow: 0 0 20px rgba(1, 41, 112, 0.1);
+    background: #fff;
+}
+
+/* Scrollbar Styles */
+.sidebar::-webkit-scrollbar {
+    width: 5px;
+    background-color: #fff;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background-color: #aab7cf;
+}
+
+/* Sidebar Links and Content */
+.sidebar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-nav .nav-item {
+    margin-bottom: 10px;
+}
+
+.sidebar-nav .nav-link {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.sidebar-nav .nav-link:hover {
+    background-color: #f0f0f0;
+    color: #007bff;
+}
+
+.sidebar-nav .nav-link span {
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.nav-content {
+    padding-left: 20px;
+}
+
+.nav-content a {
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+    color: #666;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-content a:hover {
+    color: #007bff;
+}
+
+.nav-content .nav-content a span {
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+/* Responsive Sidebar */
+@media (max-width: 1199px) {
+    .sidebar {
+        left: -300px; /* Hide the sidebar on smaller screens */
+    }
+}
+
+@media (max-width: 1200px) {
+    #main,
+    #footer {
+        margin-left: 300px; /* Adjust main content margin for large screens */
+    }
+}
+
+@media (max-width: 1199px) {
+    .toggle-sidebar .sidebar {
+        left: 0; /* Show the sidebar when toggled on smaller screens */
+    }
+
+    .toggle-sidebar #main,
+    .toggle-sidebar #footer {
+        margin-left: 0; /* Remove margin when sidebar is toggled on */
+    }
+}
+
+@media (max-width: 1200px) {
+    .toggle-sidebar .sidebar {
+        left: -300px; /* Hide the sidebar again when untoggled */
+    }
+}
+
+/* Collapsed Section Styles */
+.sidebar .nav-link.collapsed {
+    cursor: pointer;
+}
+
+ .sidebar .nav-content.collapse {
+    display: none;
+} 
+
+.sidebar .nav-content.collapse.show {
+    display: block;
+}
+
+.sidebar {
+    width: 250px;
+    transition: all 0.3s;
+  }
+  
+  .sidebar-hidden {
+    transform: translateX(-100%);
+  }
+  
+  .toggle-sidebar-btn {
+    cursor: pointer;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  }
